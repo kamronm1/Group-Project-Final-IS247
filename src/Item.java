@@ -1,20 +1,14 @@
-public class Item {
-    private String code;
+/**
+ * Abstract base class representing a general item in the vending machine.
+ * Demonstrates Abstraction and Encapsulation.
+ */
+public abstract class Item {
     private String name;
     private double price;
-    private int quantity;
 
-    // Constructor
-    public Item(String code, String name, double price, int quantity) {
-        this.code = code;
+    public Item(String name, double price) {
         this.name = name;
         this.price = price;
-        this.quantity = quantity;
-    }
-
-    // Getters
-    public String getCode() {
-        return code;
     }
 
     public String getName() {
@@ -25,20 +19,13 @@ public class Item {
         return price;
     }
 
-    public int getQuantity() {
-        return quantity;
+    // By default, items don't expire. Subclasses can override this.
+    public boolean isExpired() {
+        return false;
     }
 
-    // Reduce stock when item is purchased
-    public void reduceQuantity() {
-        if (quantity > 0) {
-            quantity--;
-        }
-    }
-
-    // Checks to see if item is in stock
-    public boolean isInStock() {
-        return quantity > 0;
-    }
+    /**
+     * Abstract method to be implemented by subclasses.
+     */
+    public abstract String displayDetails();
 }
-

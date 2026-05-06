@@ -1,0 +1,6 @@
+A1,Snack,Potato Chips,1.50,5,true
+A2,Snack,Chocolate Bar,2.00,2,false
+B1,Beverage,Cola,1.75,0,true
+B2,Beverage,Hot Coffee,2.50,10,false
+C1,Perishable,Turkey Sandwich,4.50,3,false,2023-01-01
+C2,Perishable,Fresh Apple,1.00,5,true,2026-12-31
