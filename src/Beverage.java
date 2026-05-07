@@ -1,7 +1,3 @@
-/**
- * Represents a beverage item. Extends AbstractItem.
- * Demonstrates Inheritance and Method Overriding.
- */
 public class Beverage extends Item {
     private boolean isCold;
 
