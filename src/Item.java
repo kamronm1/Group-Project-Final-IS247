@@ -1,3 +1,4 @@
+// Base class for all vending machine items
 public abstract class Item {
     private String name;
     private double price;
@@ -6,7 +7,7 @@ public abstract class Item {
         this.name = name;
         this.price = price;
     }
-
+// Getters
     public String getName() {
         return name;
     }
@@ -14,7 +15,7 @@ public abstract class Item {
     public double getPrice() {
         return price;
     }
-
+// Most items don't expire unless they're overridden
     public boolean isExpired() {
         return false;
     }

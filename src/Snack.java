@@ -1,3 +1,4 @@
+//Snack item
 public class Snack extends Item {
     private boolean isVegan;
 

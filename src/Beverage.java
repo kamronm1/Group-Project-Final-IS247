@@ -1,3 +1,4 @@
+//Beverage Item
 public class Beverage extends Item {
     private boolean isCold;
 
