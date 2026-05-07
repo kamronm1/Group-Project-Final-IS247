@@ -1,7 +1,3 @@
-/**
- * Represents a snack item. Extends AbstractItem.
- * Demonstrates Inheritance and Method Overriding.
- */
 public class Snack extends Item {
     private boolean isVegan;
 

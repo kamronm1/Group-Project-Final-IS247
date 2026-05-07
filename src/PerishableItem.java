@@ -1,8 +1,5 @@
 import java.util.Date;
 
-/**
- * Represents an item that can expire. Extends Snack.
- */
 public class PerishableItem extends Snack {
     private Date expirationDate;
 
@@ -13,12 +10,11 @@ public class PerishableItem extends Snack {
 
     @Override
     public boolean isExpired() {
-        Date today = new Date();
-        return today.after(expirationDate); // Checks if today is past the expiry date
+        return new Date().after(expirationDate);
     }
 
     @Override
     public String displayDetails() {
-        return super.displayDetails() + " [Expires: " + expirationDate.toString().substring(0, 10) + "]";
+        return super.displayDetails() + " (Expires: " + expirationDate + ")";
     }
 }
