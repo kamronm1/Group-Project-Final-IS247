@@ -1,7 +1,3 @@
-/**
- * Generic class representing a slot in the vending machine holding a specific type of item.
- * @param <T> Any type that extends AbstractItem.
- */
 public class InventorySlot<T extends Item> {
     private T item;
     private int quantity;
