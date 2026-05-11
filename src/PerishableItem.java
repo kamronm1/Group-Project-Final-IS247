@@ -3,8 +3,8 @@
  * It introduces a java.util.Date property for an expiration date
  * It overrides the isExpired() method from the base class
  * to check if today's date is past the item's expiration date
+ *
  */
-
 import java.util.Date;
 public class PerishableItem extends Snack {
     private Date expirationDate;
