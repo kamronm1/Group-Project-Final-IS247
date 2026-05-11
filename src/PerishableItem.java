@@ -1,9 +1,21 @@
-
 import java.util.Date;
-//Item that can expire
+/**
+ * (The Advanced Product) This class extends Snack
+ * It introduces a java.util.Date property for an expiration date
+ * It overrides the isExpired() method from the base class
+ * to check if today's date is past the item's expiration date
+ *
+ */
 public class PerishableItem extends Snack {
     private Date expirationDate;
 
+    /**
+     * Class constructor for perishable item
+     * @param name name of item
+     * @param price price of item
+     * @param isVegan true or false if it is vegan
+     * @param expirationDate the date of expiration
+     */
     public PerishableItem(String name, double price, boolean isVegan, Date expirationDate) {
         super(name, price, isVegan);
         this.expirationDate = expirationDate;

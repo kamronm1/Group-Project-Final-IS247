@@ -6,10 +6,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Date;
-
+/**
+ * (The Brain) This is the core engine
+ * It reads the inventory.txt file, stores the items in a HashMap,
+ * processes the user's money, dispenses the item,
+ * reduces the stock, and generates the receipt
+ */
 public class VendingMachine {
     private Map<String, InventorySlot<? extends Item>> inventory;
 
+    /**
+     * Class constructor for Vending Machine
+     */
     public VendingMachine() {
         inventory = new HashMap<>();
     }

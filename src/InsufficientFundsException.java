@@ -1,4 +1,7 @@
-//Exception that is thrown when payment is insufficient
+/**
+ * Exception that is thrown when payment is insufficient
+ * Extends exception
+ */
 public class InsufficientFundsException extends Exception {
     public InsufficientFundsException(String message) {
         super(message);

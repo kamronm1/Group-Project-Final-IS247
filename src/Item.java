@@ -1,8 +1,19 @@
-// Base class for all vending machine items
+/**
+ * (The Blueprint) This is the abstract base class
+ * It defines the universal properties every product
+ * has (a name and a price) and forces all child classes
+ * to create their own version of a displayDetails() method
+ *
+ */
 public abstract class Item {
     private String name;
     private double price;
 
+    /**
+     * Class constructor for item
+     * @param name name of item
+     * @param price price of item
+     */
     public Item(String name, double price) {
         this.name = name;
         this.price = price;
