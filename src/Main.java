@@ -2,13 +2,14 @@
  * (The User Interface) This contains the public static void main method.
  * It is responsible for the infinite while loop that keeps the program running,
  * asking the user for input via Scanner,
- * and catching any errors if the user does something wrong.
+ * and catching any errors if the user does something wrong
  *
  * @author Dharma Vyas
  * @author Kamron Mason
  * @author Drew Belloff
  *
  */
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
