@@ -1,9 +1,8 @@
 /**
  * (The Brain) This is the core engine
  * It reads the inventory.txt file, stores the items in a HashMap,
- * processes the user's money, dispenses the item, reduces the stock,
- * and generates the receipt
- *
+ * processes the user's money, dispenses the item,
+ * reduces the stock, and generates the receipt.
  */
 
 import java.io.File;

@@ -7,7 +7,6 @@
  * @author Dharma Vyas
  * @author Kamron Mason
  * @author Drew Belloff
- *
  */
 
 import java.util.Scanner;

@@ -6,7 +6,6 @@
  */
 
 import java.util.Date;
-
 public class PerishableItem extends Snack {
     private Date expirationDate;
 
