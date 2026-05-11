@@ -12,10 +12,10 @@ public class PerishableItem extends Snack {
 
     /**
      * Class constructor for perishable item
-     * @param name
-     * @param price
-     * @param isVegan
-     * @param expirationDate
+     * @param name name of item
+     * @param price price of item
+     * @param isVegan true or false if it is vegan
+     * @param expirationDate the date of expiration
      */
     public PerishableItem(String name, double price, boolean isVegan, Date expirationDate) {
         super(name, price, isVegan);
