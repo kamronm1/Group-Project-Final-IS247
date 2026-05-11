@@ -6,18 +6,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Date;
+
 /**
- * (The Brain) This is the core engine
- * It reads the inventory.txt file, stores the items in a HashMap,
- * processes the user's money, dispenses the item,
- * reduces the stock, and generates the receipt
+ * Core vending machine logic
  */
 public class VendingMachine {
     private Map<String, InventorySlot<? extends Item>> inventory;
 
-    /**
-     * Class constructor for Vending Machine
-     */
     public VendingMachine() {
         inventory = new HashMap<>();
     }
@@ -95,5 +90,20 @@ public class VendingMachine {
 
         System.out.println("Dispensing: " + slot.getItem().getName());
         System.out.println("Change: $" + (money - price));
+    }
+
+    public void restockItem(String code, int amount) {
+        InventorySlot<? extends Item> slot = inventory.get(code);
+
+        if (slot != null) {
+            slot.addQuantity(amount);
+            System.out.println("Restocked successfully.");
+        } else {
+            System.out.println("Invalid slot code.");
+        }
+    }
+
+    public void viewRevenue() {
+        System.out.println("Revenue tracking not enabled in this version.");
     }
 }

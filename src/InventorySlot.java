@@ -33,6 +33,10 @@ public class InventorySlot<T extends Item> {
         }
     }
 
+    public void addQuantity(int amount) {
+        quantity += amount;
+    }
+
     public boolean isInStock() {
         return quantity > 0;
     }
