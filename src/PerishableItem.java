@@ -1,3 +1,4 @@
+import java.util.Date;
 /**
  * (The Advanced Product) This class extends Snack
  * It introduces a java.util.Date property for an expiration date
@@ -5,7 +6,6 @@
  * to check if today's date is past the item's expiration date
  *
  */
-import java.util.Date;
 public class PerishableItem extends Snack {
     private Date expirationDate;
 
