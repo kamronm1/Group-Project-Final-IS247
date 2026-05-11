@@ -1,8 +1,8 @@
 /**
- * (The Brain) This is the core engine.
+ * (The Brain) This is the core engine
  * It reads the inventory.txt file, stores the items in a HashMap,
  * processes the user's money, dispenses the item, reduces the stock,
- * and generates the receipt.
+ * and generates the receipt
  *
  */
 
