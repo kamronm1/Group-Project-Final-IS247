@@ -1,3 +1,10 @@
+/*
+NAMES: Dharma Vyas, Kamron Mason, Drew Belloff
+CLASS: IS 247
+ASSIGMENT: Group Project
+DATE: 5/11/25
+
+ */
 import java.util.Scanner;
 
 public class Main {
