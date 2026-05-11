@@ -1,8 +1,8 @@
 /**
- * (The Container) This is a Generic class.
- * Instead of storing just items, the vending machine stores InventorySlot objects.
+ * (The Container) This is a Generic class
+ * Instead of storing just items, the vending machine stores InventorySlot objects
  * This class holds the actual item (like a Snack)
- * and the quantity of that item remaining in the machine.
+ * and the quantity of that item remaining in the machine
  *
  */
 public class InventorySlot<T extends Item> {
