@@ -1,4 +1,9 @@
-//Beverage Item
+/**
+ * (The Basic Products) These classes extend Item.
+ * Snack adds a specific boolean property to check if it's vegan,
+ * while Beverage adds a boolean to check if it is cold.
+ * They both override displayDetails() to print their specific information.
+ */
 public class Beverage extends Item {
     private boolean isCold;
 
