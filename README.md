@@ -82,6 +82,8 @@ Options:
 
 ## Example Inventory Format
 
+
+JavaDocs Link: https://dbelloff23.github.io/JavaDocs/package-summary.html
 A1,Snack,Potato Chips,1.50,5,true
 
 B2,Beverage,Hot Coffee,2.50,10,false
