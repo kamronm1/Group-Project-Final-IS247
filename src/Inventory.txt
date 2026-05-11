@@ -4,3 +4,5 @@ B1,Beverage,Cola,1.75,0,true
 B2,Beverage,Hot Coffee,2.50,10,false
 C1,Perishable,Turkey Sandwich,4.50,3,false,2023-01-01
 C2,Perishable,Fresh Apple,1.00,5,true,2026-12-31
+D1,Snack,Honey Bun,2.00,4,true
+D2,Beverage,Chocolate Milk,1.79,2,true
