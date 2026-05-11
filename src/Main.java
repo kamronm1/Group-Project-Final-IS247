@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * (The User Interface) This contains the public static void main method
  * It is responsible for the infinite while loop that keeps the program running,
@@ -8,7 +9,6 @@
  * @author Kamron Mason
  * @author Drew Belloff
  */
-import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         VendingMachine machine = new VendingMachine();
